@@ -5,18 +5,12 @@ function resolve(filePath) {
 }
 
 module.exports = {
-  entry: [resolve("src/Renderer/Renderer.fsproj"), resolve("src/Renderer/scss/main.scss")],
+  entry: [resolve("src/Renderer/Entry.fs.js"), resolve("src/Renderer/scss/main.scss")],
   output: {
     filename: "renderer.js"
   },
   module: {
     rules: [
-      {
-        test: /\.fs(x|proj)?$/,
-        use: {
-          loader: "fable-loader"
-        }
-      }
     ]
   }
 }
