@@ -41,7 +41,6 @@
     "electron-devtools-installer": "^2.2",
     "electron-webpack": "^2.6",
     "electron-window-state": "^5.0",
-
     "node-sass": "^4.13.1",
     "remotedev": "^0.2",
     "sass-loader": "^8.0.2",
